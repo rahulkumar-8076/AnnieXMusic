@@ -10,17 +10,17 @@ load_dotenv()
 # ── Core bot config ────────────────────────────────────────────────────────────
 API_ID = int(getenv("API_ID", 27798659))
 API_HASH = getenv("API_HASH", "26100c77cee02e5e34b2bbee58440f86")
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8922163050:AAEhAgKEt3W5peLBhrT0inFEk1ONOat5YWU")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
-BOT_USERNAME = getenv("BOT_USERNAME", "AnnieXRobot")
-BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "musicxannie")
+OWNER_ID = int(getenv("OWNER_ID", 8307140418))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "")
+BOT_USERNAME = getenv("BOT_USERNAME", "@Priya_x_music_bot")
+BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜPRIYA MUSICɪᴄ˼ ♪")
+ASSUSERNAME = getenv("ASSUSERNAME", "PriyaXassistant")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
-MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+MONGO_DB_URI = getenv("mongodb+srv://gack2340:gack2340@cluster0.jul3vhe.mongodb.net/?appName=Cluster0")
+LOGGER_ID = int(getenv("LOGGER_ID", -1003833010766))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -47,8 +47,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
 # ── Support links ──────────────────────────────────────────────────────────────
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CertifiedNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CertifiedDiscussion")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+3CA0Eea1aVU0MzY9")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+3CA0Eea1aVU0MzY9")
 
 # ── Assistant auto-leave ───────────────────────────────────────────────────────
 AUTO_LEAVING_ASSISTANT = False
